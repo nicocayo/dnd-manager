@@ -1,4 +1,3 @@
-# README
 # D&D Campaign Manager
 
 A comprehensive web application to help Dungeon Masters manage their D&D campaigns.
