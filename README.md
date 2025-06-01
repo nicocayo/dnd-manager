@@ -1,24 +1,27 @@
 # README
+# D&D Campaign Manager
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A comprehensive web application to help Dungeon Masters manage their D&D campaigns.
 
-Things you may want to cover:
+## Features
+- Campaign management with multiple worlds
+- Character tracking (PCs, NPCs, enemies)
+- Session logging and notes
+- Combat encounter management
+- Location and world building tools
 
-* Ruby version
+## Setup
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/dnd-campaign-manager.git
+cd dnd-campaign-manager
 
-* System dependencies
+# Install dependencies
+bundle install
 
-* Configuration
+# Setup database
+rails db:create
+rails db:migrate
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Start server
+rails server
